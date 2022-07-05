@@ -1,7 +1,7 @@
 #include "gazebo_light_sensor/light_sensor_plugin.hpp"
 #include <gazebo/common/Plugin.hh>
 #include <string>
-#include "gazebo_light_sensor/node_parameters_interface.hpp"
+
 #include <gazebo/sensors/Sensor.hh>
 #include <gazebo/sensors/CameraSensor.hh>
 #include <gazebo/sensors/SensorTypes.hh>

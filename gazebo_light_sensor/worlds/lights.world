@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<sdf version="1.4">
+<sdf version="1.6">
  <world name="default">
  <include>
    <uri>model://ground_plane</uri>
@@ -72,7 +72,7 @@
           <remapping>custom_camera/points:=custom_camera/custom_depth/custom_points</remapping>
           <remapping>custom_camera/camera_info:=custom_camera/custom_rgb/custom_camera_info</remapping>
           <remapping>custom_camera/custom_camera_info_depth:=custom_camera/custom_depth/custom_camera_info</remapping>
-        <ros>
+        </ros>
 
 
 
