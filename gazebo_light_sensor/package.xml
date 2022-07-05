@@ -9,12 +9,19 @@
 
   <buildtool_depend>ament_cmake_ros</buildtool_depend>
 
+  <depend>gazebo</depend>
   <depend>gazebo_ros</depend>
   <depend>gazebo_plugins</depend>
   <depend>gazebo_msgs</depend>
   <depend>gazebo_dev</depend>
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
+
+  <depend>camera_info_manager</depend>
+  <depend>image_transport</depend>
+  <depend>std_msgs</depend>
+
+  
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

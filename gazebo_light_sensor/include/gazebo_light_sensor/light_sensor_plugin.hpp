@@ -3,7 +3,7 @@
 
 #include "gazebo_light_sensor/visibility_control.h"
 #include "gazebo_light_sensor/node_parameters_interface.hpp"
-#include <gazebo_plugins/gazebo_ros_camera.hpp>
+#include "gazebo_light_sensor/custom_gazebo_ros_camera.hpp"
 #include <string>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/illuminance.hpp>
